@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>趣味小站</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">😆 周毅大傻鬼</div>
+    <nav class="nav">
+      <a href="#home">邵航</a>
+      <a href="#gallery">周毅</a>
+      <a href="#contact">王志业</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section id="home" class="card hero">
+      <h1 id="headline">周毅大傻鬼真点开了？</h1>
+      <p class="sub" id="tagline">这里有一些周毅和邵航的18+内容～</p>
+
+      <div class="row">
+        <input id="nameInput" class="input" placeholder="输入一个名字（可选）" />
+        <button id="applyBtn" class="btn">生成标题</button>
+        <button id="randomBtn" class="btn ghost">随机一句</button>
+      </div>
+
+      <div class="pill-row">
+        <span class="pill">王志业</span>
+        <span class="pill">轻松玩梗</span>
+        <span class="pill">可来到邵航家</span>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid">
+      <article class="card">
+        <h2>😂 今日笑点</h2>
+        <p id="joke">点一下“随机一句”，和周毅来点刺激的。</p>
+      </article>
+
+      <article class="card">
+        <h2>🎭 趣味小测</h2>
+        <p>周毅今天的“saosao指数”：</p>
+        <div class="meter">
+          <div id="bar" class="bar" style="width: 42%"></div>
+        </div>
+        <p class="small" id="meterText">42 / 100(太骚了）</p>
+        <button id="testBtn" class="btn smallbtn">测一下</button>
+      </article>
+
+      <article class="card">
+        <h2>🧩 轻量留言</h2>
+        <form id="form" class="form">
+          <input id="msg" class="input" placeholder="我测弄娘" />
+          <button class="btn" type="submit">提交</button>
+        </form>
+        <ul id="list" class="list"></ul>
+      </article>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>📮 联系</h2>
+      <p class="sub"></p>
+    </section>
+
+    <footer class="footer">联系请到丹阳村或者勤俭村，请拨打电话18857979523</footer>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
